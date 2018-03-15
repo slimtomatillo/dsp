@@ -20,8 +20,20 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > `pwd` = show current working directory path
+> > `mkdir` = `mkdir` + `newdirectory` will create a directory
+> > `rm -r` = `rm -r` + `directory` will delete a directory and all of its contents
+> > `rmdr` = `rmdr` + `directory` will delete an empty directory
+> > `touch` = `touch` + `file` will create a file
+> > `rm` = `rm` + `file` will delete a file
+> > `mv` = rename a specified file or directory (or move file)
+> > `ls -a` = list hidden files
+> > `cp` = `cp` + `file` + `directory` copy specified file to specified directory
+> > `echo` = outputs the string of the argument being passed
+> > `ls` = list files in the current working directory
+> > `cat` = displays contents of a file
+> > `cd` = change directory
+> > `history` - displays listing of the last commands run
 ---
 
 ### Q2.  List Files in Unix   
@@ -35,7 +47,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls` = list files in the current working directory
+> > `ls -a` = list all files including those starting with a dot .
+> > `ls -l` = list files and use a long listing format (which displays permissions, links, owner, group, size, time, and name)
+> > `ls -lh` = list files and use a long listing format with sizes printed in human readable format (e.g., 4K 34M 7G)
+> > `ls -lah` = list all files including hidden . files in long listing format with sizes printed in human readable format
+> > `ls -t` = list files and sort by time, defaults to modification time
+> > `ls -Glp` = list files and inhibit display of group information and use a long listing format and put / after directory names
 
 ---
 
@@ -52,6 +70,3 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 What does `xargs` do? Give an example of how to use it.
 
 > > REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
-
