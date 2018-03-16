@@ -32,8 +32,13 @@ Make a cheat sheet for yourself: a list of at least **ten** commands and what th
 > > `echo` = outputs the string of the argument being passed  
 > > `ls` = list files in the current working directory  
 > > `cat` = displays contents of a file  
-> > `cd` = change directory  
-> > `history` - displays listing of the last commands run
+> > `cd` = `cd` + `directory` or `path` change directory to specified directory or path  
+> > `cd ..` = move up one directory  
+> > `history` = displays listing of the last commands run  
+> > `wc` = `wc` + `filename` outputs the number of lines, words, and characters in specified file  
+> > `grep` = searches for a text pattern and outputs it  
+> > `sed` = searches for a text pattern, modifies it, and outputs it  
+
 ---
 
 ### Q2.  List Files in Unix   
@@ -53,7 +58,7 @@ What do the following commands do:
 > > `ls -lh` = list files and use a long listing format with sizes printed in human readable format (e.g., 4K 34M 7G)  
 > > `ls -lah` = list all files including hidden . files in long listing format with sizes printed in human readable format  
 > > `ls -t` = list files and sort by time, defaults to modification time  
-> > `ls -Glp` = list files and inhibit display of group information and use a long listing format and put / after directory names
+> > `ls -Glp` = list files and inhibit display of group information and use a long listing format and put / after directory names  
 
 ---
 
@@ -61,7 +66,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `ls -m` = list file names as a comma-separated list  
+> > `ls -R` = list files and display all subdirectories as well  
+> > `ls -i` = list files and display the inode for each file  
+> > `ls -1` = list each file on a line  
+> > `ls -c` = list files by file timestamp  
 
 ---
 
