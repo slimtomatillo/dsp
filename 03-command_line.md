@@ -78,4 +78,12 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` executes commands on multiple arguments or files  
+
+> > *Examples:*  
+
+> > `$ ls | xargs -n 1 chgrp newgroup`  
+> > This changes the group of all the files in the current directory to newgroup  
+
+> > `$ ls | xargs rm`  
+> > This removes all the files in the current directory  
