@@ -1,6 +1,7 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
-```def cohen_effect_size(group1, group2):
+```
+def cohen_effect_size(group1, group2):
     """Computes the Cohen's effect size between group1 and group2
     group1: Series or DataFrame
     group2: Series or DataFrame
