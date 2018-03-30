@@ -1,6 +1,6 @@
 [Think Stats Chapter 2 Exercise 4](http://greenteapress.com/thinkstats2/html/thinkstats2003.html#toc24) (Cohen's d)
 
->> ```def cohen_effect_size(group1, group2):
+```def cohen_effect_size(group1, group2):
     """Computes the Cohen's effect size between group1 and group2
     group1: Series or DataFrame
     group2: Series or DataFrame
@@ -19,7 +19,8 @@
 
     d = difference/np.sqrt(pooled_var)
 
-    return(d)```
+    return(d)
+  ```
 
 >> The effect size of between the weight of first born and non-first born babies is -0.088672927072602, while the effect size between the length of pregnancy of first born and non-first born babies is 0.028879044654449883.
 
