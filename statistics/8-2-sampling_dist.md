@@ -151,7 +151,7 @@ plt.xlabel('n')
 plt.ylabel('std error')
 ```
 
->> Results of experiment simulated 1000 times with n=10 and lambda=2:
-rmse L: 0.8261571058022664
-mean error L: 0.22671440108829377
+>> Results of experiment simulated 1000 times with n=10 and lambda=2:  
+rmse L: 0.8261571058022664  
+mean error L: 0.22671440108829377  
 90% ci: (85.97269915373764, 94.365245932097)
