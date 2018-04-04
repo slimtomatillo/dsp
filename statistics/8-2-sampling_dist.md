@@ -12,9 +12,6 @@ def estimate(n=10, iters=1000):
 
     ci = cdf.Percentile(5), cdf.Percentile(95)
 
-    n_list.append(n)
-    std_err_list.append(RMSE(means,lam))
-
     print('rmse L:', RMSE(means, lam))
     print('mean error L:', MeanError(means, lam))
     print('90% ci:', ci)
