@@ -2,6 +2,7 @@
 
 ---
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> The standard error is 1.41  
+Because the mean error is  small (-0.02) and decreases as m increases, it appears that this method of estimation is not biased.
 
 ---
